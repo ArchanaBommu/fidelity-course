@@ -1,0 +1,74 @@
+
+.coursebox{
+    float: left;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 5px 5px 10px lightgray;
+    height: 380px;
+    width: 250px;
+}
+
+.c-image{
+    width: 100%;
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+.c-image img{
+    height: 100%;
+    width: 100%;
+}
+
+h5{
+    color: rgb(58, 58, 61);
+    text-align: center;
+    font-family: arial;
+    text-align: center;
+}
+
+h6{
+    color: rgb(129, 123, 123);
+    font-family: consolas;
+    text-align: justify;
+}
+
+.price-block{
+    padding: 10px;
+    background-color: rgb(128, 111, 111);
+    color: rgb(250, 244, 244);
+    margin-top:20px;
+}
+
+.price-block h5{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align:center;
+    font-weight: bold;
+}
+
+.price-block h6{
+    color: rgb(245, 243, 243);
+    text-align:center;
+}
+.rating-block{
+    width:100%;
+    margin-top: 10px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.unit{
+    margin-top:15px;
+    width:33%;
+    text-align: center;
+    font-family: consolas;
+    color: red;
+    float: left;
+    font-weight:bold;
+   
+}
+.unit img{
+   
+    width:50%;
+    height: 40px;
+}

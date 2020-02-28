@@ -1,0 +1,23 @@
+<div class="coursebox">
+    <div class="c-image">
+        <img src="http://localhost:8081/open-api/images/{{current.filename}}">
+    </div>
+    <h4>{{current.name | uppercase}}</h4>
+    <h5>{{current.description}}</h5>
+    <div class="price-block">
+        <h5>{{current.price | discount: current.duration |currency:"INR"}}
+            <span [style.fontSize]="'14px'" [style.color]="'darkred'">
+              <del> {{current.price | currency:"INR"}} </del>
+            </span>
+        </h5>
+        <h6>Duration: {{current.duration}} hours</h6>
+    </div>
+    <div class="rating-block">
+        <div class="unit">rating: {{current.rating}}</div>
+        <div class="unit">
+            <img src="http://localhost:8081/open-api/userimages/{{current.user.imagefile}}">
+        </div>
+        <div class="unit" [style.fontStyle]="'italic'" [style.cursor]="'pointer'"
+        (click)="setType()">{{current.user.username}}</div>
+    </div>
+</div>

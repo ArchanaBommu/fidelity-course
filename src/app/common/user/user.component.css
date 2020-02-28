@@ -1,0 +1,19 @@
+#user-group{
+    border: 2px solid lightgray;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+#user-group .user-img{
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+#user-group .user-img img{
+    height: 100%;
+    width: 100%;
+}

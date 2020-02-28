@@ -1,0 +1,10 @@
+<select [(ngModel)]="type">
+    <option>High Price</option>
+    <option>Moderate Price</option>
+    <option>Low Price</option>
+    <option>All</option>
+</select>
+
+<br>
+
+<app-course *ngFor="let x of courses|coursefilter:type" [course]="x"></app-course>
